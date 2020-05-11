@@ -5,8 +5,32 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+			"path": "pages/money/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
 		}
 	],
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#1296DB",		
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/index_select.png",
+				"text": "生日"
+			},
+			{
+				"pagePath": "pages/money/index",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home_select.png",
+				"text": "礼金"
+			}
+		]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
